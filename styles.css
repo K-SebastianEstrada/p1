@@ -328,6 +328,31 @@ a:hover {
     margin: 1.5% 24%;
 }
 
+@media (max-width: 1000px) {
+    .dv1 .photo img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .block{
+        width: 200px ;
+        height: 200px !important;
+    }
+    .dv3 .block img{
+        width: 150px;
+        height: 150px;
+    }
+    .dv3 .block h1{
+        font-size: 25px !important;
+    }
+
+    .dv1 .info button {
+        padding: 0.6em 1.6em;
+        font-size: 15px;
+        margin-bottom: 8%;
+       }
+}
+
 @media(max-width :750px) {
     .dv1 {
         flex-direction: column;
@@ -372,24 +397,6 @@ a:hover {
     }
 }
 
-    @media (max-width: 1000px) {
-        .dv1 .photo img{
-            width: 300px;
-            height: 300px;
-        }
-        .dv3 .block img{
-            width: 150px;
-            height: 150px;
-        }
-        .dv3 .block h1{
-            font-size: 25px !important;
-        }
 
-        .dv1 .info button {
-            padding: 0.6em 1.6em;
-            font-size: 15px;
-            margin-bottom: 8%;
-           }
-    }
         
     
