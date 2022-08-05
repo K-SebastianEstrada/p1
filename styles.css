@@ -384,6 +384,12 @@ a:hover {
         .dv3 .block h1{
             font-size: 25px !important;
         }
+
+        .dv1 .info button {
+            padding: 0.6em 1.6em;
+            font-size: 15px;
+            margin-bottom: 8%;
+           }
     }
         
     
