@@ -96,50 +96,97 @@ border-radius: 10px;
 .black-key {
     z-index: 2;}
 
-    @media only screen
-    and (min-width: 320px)
-    and (max-width: 736px)
+    @media screen and (max-width: 600px)
     {
         #piano{
-            height: 150px;
+            height: 200px;
             padding: 40px 15px 0px;
         }
         .white-key{
-            width: 30px;
-            height: 150px;
+            width: 22px;
+            height: 180px;
         }
         .black-key{
             width: 10px;
-            height: 120px;
+            height: 110px;
         }
         .black-key:nth-child(1){
-            left: 25px;
+            left: 17px;
         }
         .black-key:nth-child(2){
-            left: 55px;
+            left: 39px;
         }
         .black-key:nth-child(3){
-            left: 115px;
+            left: 84px;
         }
         .black-key:nth-child(4){
-            left: 145px;
+            left: 106px;
         }
         .black-key:nth-child(5){
-            left: 175px;
+            left: 128px;
         }
+
         .black-key:nth-child(6){
-            left: 235px;
+            left: 172px;
         }
         .black-key:nth-child(7){
-            left: 265px;
+            left: 194px;
         }
         .black-key:nth-child(8){
-            left: 295px;
+            left: 216px;
         }
         .black-key:nth-child(9){
-            left: 355px;
+            left: 260px;
         }
         .black-key:nth-child(10){
-            left: 385px;
+            left: 280px;
         }
+    }
+
+    @media screen and (max-width: 900px) and (min-width: 601px)
+    {
+        #piano{
+            height: 240px;
+            padding: 50px 25px 25px;
+        }
+        .white-key{
+            width: 50px;
+            height: 240px;
+        }
+        .black-key{
+            width: 20px;
+            height: 140px;
+        }
+        .black-key:nth-child(1){
+            left: 40px;
+        }
+        .black-key:nth-child(2){
+            left: 90px;
+        }
+        .black-key:nth-child(3){
+            left: 190px;
+        }
+        .black-key:nth-child(4){
+            left: 240px;
+        }
+        .black-key:nth-child(5){
+            left: 290px;
+        }
+
+        .black-key:nth-child(6){
+            left: 390px;
+        }
+        .black-key:nth-child(7){
+            left: 440px;
+        }
+        .black-key:nth-child(8){
+            left: 490px;
+        }
+        .black-key:nth-child(9){
+            left: 590px;
+        }
+        .black-key:nth-child(10){
+            left: 640px;
+        }
+        
     }
